@@ -26,4 +26,4 @@ You should change the look of the page based on the data, maybe by changing the 
 
 ## Screenshots
 
-<img src="" />
+<img src="screenshots/WeatherApp.png" />
