@@ -1,0 +1,70 @@
+body {
+  background-color: #132743;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: 0;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100px;
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+#changeUnit {
+  width: 150px;
+  text-align: center;
+}
+
+#container {
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
